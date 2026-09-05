@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <title>Beyond - Opening</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="opening-screen">
+
+        <!--PARTICLE / LOGO AREA-->
+        <section class="logo-stage">
+            <canvas id="particleCanvas"></canvas>
+            <div class="logo-wrapper">
+                <img
+                    id="logo"
+                    src="assets/beyond_tech_nature_leaf.png"
+                    alt="Beyond"
+                >
+            </div>
+        </section>
+
+        <!-- BRANDING -->
+        <section class="branding">
+            <h1 id="brandName">
+                Beyond
+            </h1>
+            <h2 id="brandType">
+                AI TRANSLATOR
+            </h2>
+            <p id="tagline">
+                Translate. Understand. Listen.
+            </p>
+        </section>
+
+        <!--LOADING -->
+        <section id="loading" class="loading">
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p>
+                Initializing...
+            </p>
+        </section>
+    </main>
+    <script src="animation.js"></script>
+</body>
+</html>
