@@ -23,4 +23,5 @@ settings.json
 animations/opening/README.txt
 animations/opening/animation.js
 animations/opening/index.html
-animations/opening/style.css
+animations/opening/style.cssdist/ 
+build/ 
