@@ -22,7 +22,7 @@ class EndingScreen:
 
         # LOGO
         self.logo = ft.Image(
-            src=str(self.asset_path),
+            src=self.asset_path.read_bytes(),
             width=260,
             height=215,
             opacity=0,
@@ -31,6 +31,7 @@ class EndingScreen:
                 curve=ft.AnimationCurve.EASE_OUT,
             ),
         )
+
 
         # BEYOND
         self.brand_name = ft.Text(
