@@ -37,7 +37,7 @@ class OpeningScreen:
         
         # LOGO
         self.logo = ft.Image(
-            src=str(self.asset_path),
+            src=self.asset_path.read_bytes(),
             width=360,
             height=300,
             opacity=0,
